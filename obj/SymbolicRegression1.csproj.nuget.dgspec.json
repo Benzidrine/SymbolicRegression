@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/benzidrine/Repos/SymbolicRegression1/SymbolicRegression1.csproj": {}
+  },
+  "projects": {
+    "/Users/benzidrine/Repos/SymbolicRegression1/SymbolicRegression1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/benzidrine/Repos/SymbolicRegression1/SymbolicRegression1.csproj",
+        "projectName": "SymbolicRegression1",
+        "projectPath": "/Users/benzidrine/Repos/SymbolicRegression1/SymbolicRegression1.csproj",
+        "packagesPath": "/Users/benzidrine/.nuget/packages/",
+        "outputPath": "/Users/benzidrine/Repos/SymbolicRegression1/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/benzidrine/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "http://172.18.1.40:54244/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
