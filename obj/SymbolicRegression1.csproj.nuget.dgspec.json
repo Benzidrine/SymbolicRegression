@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/benzidrine/Repos/SymbolicRegression1/SymbolicRegression1.csproj": {}
+    "/Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/SymbolicRegression1.csproj": {}
   },
   "projects": {
-    "/Users/benzidrine/Repos/SymbolicRegression1/SymbolicRegression1.csproj": {
+    "/Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/SymbolicRegression1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/benzidrine/Repos/SymbolicRegression1/SymbolicRegression1.csproj",
+        "projectUniqueName": "/Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/SymbolicRegression1.csproj",
         "projectName": "SymbolicRegression1",
-        "projectPath": "/Users/benzidrine/Repos/SymbolicRegression1/SymbolicRegression1.csproj",
+        "projectPath": "/Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/SymbolicRegression1.csproj",
         "packagesPath": "/Users/benzidrine/.nuget/packages/",
-        "outputPath": "/Users/benzidrine/Repos/SymbolicRegression1/obj/",
+        "outputPath": "/Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

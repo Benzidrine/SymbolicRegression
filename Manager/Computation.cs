@@ -35,10 +35,10 @@ namespace symbolicregression1.Manager
                         y *= x;
                         break;
                     case Geneset.Cosine:
-                        y += Math.Cos(x);
+                        y += Math.Cos((x * g.Value));
                         break;
                     case Geneset.Sine:
-                        y += Math.Sin(x);
+                        y += Math.Sin((x * g.Value));
                         break;
                     default:
                         break;

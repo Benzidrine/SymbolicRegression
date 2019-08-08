@@ -74,6 +74,8 @@ namespace symbolicregression1.Models
         public string Display ()
         {
             string Result = "";
+            //Prefix allows for brackets which correct the order of operations for the statement 
+            string Prefix = "";
             foreach (Gene g in genes)
             {
                 switch(g.Operation)
@@ -91,23 +93,25 @@ namespace symbolicregression1.Models
                         Result += "-x";
                         break;
                     case Geneset.Multiply:
-                        Result += "*" + g.Value;
+                        Prefix += "(";
+                        Result += ")*" + g.Value;
                         break;
                     case Geneset.MultiplyX:
-                        Result += "*x";
+                        Prefix += "(";
+                        Result += ")*x";
                         break;
                     case Geneset.Cosine:
-                        Result += "+cos(x)";
+                        Result += "+cos((x * " + g.Value + "))";
                         break;
                     case Geneset.Sine:
-                        Result += "+sin(x)";
+                        Result += "+sin((x * " + g.Value + "))";
                         break;
                     default:
                         break;
                 }
             }
 
-            return Result;
+            return Prefix + "0" + Result;
         }
     }
 }

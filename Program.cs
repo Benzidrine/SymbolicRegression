@@ -10,11 +10,14 @@ namespace SymbolicRegression1
         {
             //Set up initial Data Points
             List<Tuple<float,float>> Data = new List<Tuple<float, float>>();
-            Data.Add(new Tuple<float,float>(1,3.83f));
-            Data.Add(new Tuple<float,float>(2,3.909f));
-            Data.Add(new Tuple<float,float>(3,3.141f));
-            Data.Add(new Tuple<float,float>(4,2.23f));
-            Data.Add(new Tuple<float,float>(5,2.041f));
+            Data.Add(new Tuple<float,float>(0,0.375f));
+            Data.Add(new Tuple<float,float>(1,1.123f));
+            Data.Add(new Tuple<float,float>(2,0.5f));
+            Data.Add(new Tuple<float,float>(3,-0.359f));
+            Data.Add(new Tuple<float,float>(4,0.165f));
+            Data.Add(new Tuple<float,float>(5,1.078f));
+            Data.Add(new Tuple<float,float>(6,0.684f));
+            Data.Add(new Tuple<float,float>(7,-0.285f));
 
 
             string Command = Console.ReadLine();
@@ -40,6 +43,11 @@ namespace SymbolicRegression1
             }
         }
 
-        
+        //Examine:
+        //(Sin(x*1.5)+0.5)*0.75
+        //Vs:
+        //(0+x+sin((x * 1.55200069563091))-x+0.99404109967595+sin((x * 1.44250526998309)))*0.385520038374476
+        //Vs:
+        //(0+x-x+0.0324822794797282+sin((x * 1.49997493228874))+0.467162608386559)*0.75008695141882
     }
 }

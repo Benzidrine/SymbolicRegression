@@ -9,3 +9,14 @@
 /Users/benzidrine/Repos/SymbolicRegression1/obj/Debug/netcoreapp2.2/SymbolicRegression1.AssemblyInfo.cs
 /Users/benzidrine/Repos/SymbolicRegression1/obj/Debug/netcoreapp2.2/SymbolicRegression1.dll
 /Users/benzidrine/Repos/SymbolicRegression1/obj/Debug/netcoreapp2.2/SymbolicRegression1.pdb
+/Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/bin/Debug/netcoreapp2.2/SymbolicRegression1.deps.json
+/Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/bin/Debug/netcoreapp2.2/SymbolicRegression1.runtimeconfig.json
+/Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/bin/Debug/netcoreapp2.2/SymbolicRegression1.runtimeconfig.dev.json
+/Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/bin/Debug/netcoreapp2.2/SymbolicRegression1.dll
+/Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/bin/Debug/netcoreapp2.2/SymbolicRegression1.pdb
+/Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/obj/Debug/netcoreapp2.2/SymbolicRegression1.csprojAssemblyReference.cache
+/Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/obj/Debug/netcoreapp2.2/SymbolicRegression1.csproj.CoreCompileInputs.cache
+/Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/obj/Debug/netcoreapp2.2/SymbolicRegression1.AssemblyInfoInputs.cache
+/Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/obj/Debug/netcoreapp2.2/SymbolicRegression1.AssemblyInfo.cs
+/Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/obj/Debug/netcoreapp2.2/SymbolicRegression1.dll
+/Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/obj/Debug/netcoreapp2.2/SymbolicRegression1.pdb
