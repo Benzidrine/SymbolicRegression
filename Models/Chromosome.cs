@@ -28,10 +28,12 @@ namespace symbolicregression1.Models
         public Gene GenerateGene()
         {
             Random rnd = new Random();
+            //Get number of values defined in Gene Set
+            int GenesetCount = Enum.GetNames(typeof(Geneset)).Length;
+            //Random value between 0 - 2
             double geneValue = (rnd.NextDouble() * 2);
-
-            Geneset geneset = (Geneset)rnd.Next(0,8);
-
+            //Get random sample from Geneset
+            Geneset geneset = (Geneset)rnd.Next(0,GenesetCount);
             return new Gene(geneset,geneValue);
         }
  
