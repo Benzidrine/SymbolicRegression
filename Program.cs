@@ -43,6 +43,7 @@ namespace SymbolicRegression1
             }
         }
 
+
         //Examine:
         //(sin(x*1.5)+0.5)*0.75
         //Vs:
