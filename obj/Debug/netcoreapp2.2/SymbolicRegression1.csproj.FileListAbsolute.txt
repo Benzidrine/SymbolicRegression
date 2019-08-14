@@ -20,3 +20,14 @@
 /Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/obj/Debug/netcoreapp2.2/SymbolicRegression1.AssemblyInfo.cs
 /Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/obj/Debug/netcoreapp2.2/SymbolicRegression1.dll
 /Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/obj/Debug/netcoreapp2.2/SymbolicRegression1.pdb
+/home/taran/Repos/SymbolicRegression/obj/Debug/netcoreapp2.2/SymbolicRegression1.csprojAssemblyReference.cache
+/home/taran/Repos/SymbolicRegression/obj/Debug/netcoreapp2.2/SymbolicRegression1.csproj.CoreCompileInputs.cache
+/home/taran/Repos/SymbolicRegression/obj/Debug/netcoreapp2.2/SymbolicRegression1.AssemblyInfoInputs.cache
+/home/taran/Repos/SymbolicRegression/obj/Debug/netcoreapp2.2/SymbolicRegression1.AssemblyInfo.cs
+/home/taran/Repos/SymbolicRegression/obj/Debug/netcoreapp2.2/SymbolicRegression1.dll
+/home/taran/Repos/SymbolicRegression/obj/Debug/netcoreapp2.2/SymbolicRegression1.pdb
+/home/taran/Repos/SymbolicRegression/bin/Debug/netcoreapp2.2/SymbolicRegression1.deps.json
+/home/taran/Repos/SymbolicRegression/bin/Debug/netcoreapp2.2/SymbolicRegression1.runtimeconfig.json
+/home/taran/Repos/SymbolicRegression/bin/Debug/netcoreapp2.2/SymbolicRegression1.runtimeconfig.dev.json
+/home/taran/Repos/SymbolicRegression/bin/Debug/netcoreapp2.2/SymbolicRegression1.dll
+/home/taran/Repos/SymbolicRegression/bin/Debug/netcoreapp2.2/SymbolicRegression1.pdb

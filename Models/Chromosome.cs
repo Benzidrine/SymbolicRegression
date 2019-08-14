@@ -7,7 +7,6 @@ namespace symbolicregression1.Models
     public class Chromosome
     {
         List<Gene> genes {get; set;}
-        
         //Generates a random parent with length being the number of operations
         public void GenerateParent(int Length)
         {
@@ -31,29 +30,11 @@ namespace symbolicregression1.Models
             Random rnd = new Random();
             double geneValue = (rnd.NextDouble() * 2);
 
-            switch(rnd.Next(0,8))
-            {
-                case 0:
-                    return new Gene(Geneset.Add,geneValue);
-                case 1:
-                    return new Gene(Geneset.AddX,geneValue);
-                case 2:
-                    return new Gene(Geneset.Cosine,geneValue);
-                case 3:
-                    return new Gene(Geneset.Multiply,geneValue);
-                case 4:
-                    return new Gene(Geneset.MultiplyX,geneValue);
-                case 5:
-                    return new Gene(Geneset.Sine,geneValue);
-                case 6:
-                    return new Gene(Geneset.Subtract,geneValue);
-                case 7:
-                    return new Gene(Geneset.SubtractX,geneValue);
-                default:
-                    return new Gene(Geneset.Add,geneValue);
-            }
-        }
+            Geneset geneset = (Geneset)rnd.Next(0,8);
 
+            return new Gene(geneset,geneValue);
+        }
+ 
         public void Mutate()
         {
             Random rnd = new Random();

@@ -1,29 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/SymbolicRegression1.csproj": {}
+    "/home/taran/Repos/SymbolicRegression/SymbolicRegression1.csproj": {}
   },
   "projects": {
-    "/Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/SymbolicRegression1.csproj": {
+    "/home/taran/Repos/SymbolicRegression/SymbolicRegression1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/SymbolicRegression1.csproj",
+        "projectUniqueName": "/home/taran/Repos/SymbolicRegression/SymbolicRegression1.csproj",
         "projectName": "SymbolicRegression1",
-        "projectPath": "/Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/SymbolicRegression1.csproj",
-        "packagesPath": "/Users/benzidrine/.nuget/packages/",
-        "outputPath": "/Users/benzidrine/Repos/SymbolicRegression/SymbolicRegression/obj/",
+        "projectPath": "/home/taran/Repos/SymbolicRegression/SymbolicRegression1.csproj",
+        "packagesPath": "/home/taran/.nuget/packages/",
+        "outputPath": "/home/taran/Repos/SymbolicRegression/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/benzidrine/.nuget/NuGet/NuGet.Config"
+          "/home/taran/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "http://172.18.1.40:54244/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
